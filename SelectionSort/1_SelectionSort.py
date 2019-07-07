@@ -15,7 +15,7 @@ def selectionSort(arr):
     return newArr
 
 
-user_input = str(input("Enter a list of number separated by space in between. Eg: 3 5 78 93 2 :: "))
+user_input = str(input("Enter a list of number separated by comma in between. Eg: 3, 5, 78, 93, 2 :: "))
 
 x = user_input.split(",")
 x = list(map(int, x))
