@@ -1,4 +1,4 @@
-print("Enter a array of numbers with a comma in between and find the sum of all numbers.")
+print("Enter a array of numbers with a comma in between and find the sum of all numbers recursively")
 user_input = str(input("Eg - 2,3,4 :: "))
 x = user_input.split(",")
 x = list(map(int, x))
